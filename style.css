@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   background-image: url("IMG/abstract.jpg");
+   background-size: 100%;
+}
+
+header {
+    height: 15vh;
+}
+
+
+main{
+    height: 85vh;
+}
+
+.menu {
+    display: block;
+    height: 100%;
+    padding: 20px 25px;   
+}
+
+
+.logo img {
+    height: 60px;
+    margin: 0 15px;
+    float: left;
+}
+
+.dropbtn {
+    min-width: 160px;
+    background-color: #333333;
+    color: white;
+    margin-right: 15px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.dropdown-content {
+    left: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: transform .2s;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1f1;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 0px 0px 15px 15px;
+    transform: scale(1.1);
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #4b4b4b ;
+    border-radius: 15px 15px 0px 0px;
+    transform: scale(1.1);
+}
+
+.img-zoom {
+    display: flex;
+    justify-content: auto;
+}
+
+.img-zoom1 {
+    /* display: flex; */
+    height: 400px;
+    width: 200px;
+    background-image: url("./IMG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+
+.img-zoom1:hover {
+    z-index: 1;
+    transform: scale(1.5);
+}
+
+.img-zoom2 {
+    /* display: flex; */
+    height: 400px;
+    width: 200px;
+    background-image: url("./IMG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+
+.img-zoom2:hover {
+    z-index: 1;
+    transform: scale(1.5);
+}
+
+.img-zoom3 {
+    /* display: flex; */
+    height: 400px;
+    width: 200px;
+    background-image: url("./IMG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+
+.img-zoom3:hover {
+    z-index: 1;
+    transform: scale(1.5);
+}
